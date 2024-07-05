@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3F15BE62C2FABFE00B1504C /* YapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F15BE52C2FABFE00B1504C /* YapperApp.swift */; };
+		A3F15BE82C2FABFE00B1504C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F15BE72C2FABFE00B1504C /* ContentView.swift */; };
+		A3F15BEA2C2FAC0000B1504C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F15BE92C2FAC0000B1504C /* Assets.xcassets */; };
+		A3F15BED2C2FAC0000B1504C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F15BEC2C2FAC0000B1504C /* Preview Assets.xcassets */; };
+		A3F15BF72C2FAC0000B1504C /* YapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F15BF62C2FAC0000B1504C /* YapperTests.swift */; };
+		A3F15C012C2FAC0000B1504C /* YapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F15C002C2FAC0000B1504C /* YapperUITests.swift */; };
+		A3F15C032C2FAC0000B1504C /* YapperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F15C022C2FAC0000B1504C /* YapperUITestsLaunchTests.swift */; };
+		A3F15C232C2FADEA00B1504C /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F15C222C2FADEA00B1504C /* ExploreView.swift */; };
+		A3F15C252C2FB2FB00B1504C /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F15C242C2FB2FB00B1504C /* ListingItemView.swift */; };
+		A3F15C272C2FC1E900B1504C /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F15C262C2FC1E900B1504C /* SearchAndFilterBar.swift */; };
+		A3F15C292C306F9B00B1504C /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F15C282C306F9B00B1504C /* ListingDetailView.swift */; };
+		A3F15C2C2C307B4900B1504C /* ListingImageCaresellVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F15C2B2C307B4900B1504C /* ListingImageCaresellVIew.swift */; };
+		A3F15C2F2C31FFB100B1504C /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F15C2E2C31FFB100B1504C /* DestinationSearchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3F15BF32C2FAC0000B1504C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F15BDA2C2FABFE00B1504C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F15BE12C2FABFE00B1504C;
+			remoteInfo = Yapper;
+		};
+		A3F15BFD2C2FAC0000B1504C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F15BDA2C2FABFE00B1504C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F15BE12C2FABFE00B1504C;
+			remoteInfo = Yapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3F15BE22C2FABFE00B1504C /* Yapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F15BE52C2FABFE00B1504C /* YapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapperApp.swift; sourceTree = "<group>"; };
+		A3F15BE72C2FABFE00B1504C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3F15BE92C2FAC0000B1504C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3F15BEC2C2FAC0000B1504C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3F15BF22C2FAC0000B1504C /* YapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F15BF62C2FAC0000B1504C /* YapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapperTests.swift; sourceTree = "<group>"; };
+		A3F15BFC2C2FAC0000B1504C /* YapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F15C002C2FAC0000B1504C /* YapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapperUITests.swift; sourceTree = "<group>"; };
+		A3F15C022C2FAC0000B1504C /* YapperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3F15C222C2FADEA00B1504C /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		A3F15C242C2FB2FB00B1504C /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
+		A3F15C262C2FC1E900B1504C /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
+		A3F15C282C306F9B00B1504C /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
+		A3F15C2B2C307B4900B1504C /* ListingImageCaresellVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCaresellVIew.swift; sourceTree = "<group>"; };
+		A3F15C2E2C31FFB100B1504C /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F15BDF2C2FABFE00B1504C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F15BEF2C2FAC0000B1504C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F15BF92C2FAC0000B1504C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F15BD92C2FABFE00B1504C = {
+			isa = PBXGroup;
+			children = (
+				A3F15BE42C2FABFE00B1504C /* Yapper */,
+				A3F15BF52C2FAC0000B1504C /* YapperTests */,
+				A3F15BFF2C2FAC0000B1504C /* YapperUITests */,
+				A3F15BE32C2FABFE00B1504C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F15BE32C2FABFE00B1504C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F15BE22C2FABFE00B1504C /* Yapper.app */,
+				A3F15BF22C2FAC0000B1504C /* YapperTests.xctest */,
+				A3F15BFC2C2FAC0000B1504C /* YapperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F15BE42C2FABFE00B1504C /* Yapper */ = {
+			isa = PBXGroup;
+			children = (
+				A3F15C2D2C30E3C700B1504C /* Models */,
+				A3F15C182C2FACB400B1504C /* Utils */,
+				A3F15C162C2FAC9C00B1504C /* Extensions */,
+				A3F15C142C2FAC6E00B1504C /* Core */,
+				A3F15BE72C2FABFE00B1504C /* ContentView.swift */,
+				A3F15C132C2FAC3D00B1504C /* App */,
+				A3F15BE92C2FAC0000B1504C /* Assets.xcassets */,
+				A3F15BEB2C2FAC0000B1504C /* Preview Content */,
+			);
+			path = Yapper;
+			sourceTree = "<group>";
+		};
+		A3F15BEB2C2FAC0000B1504C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3F15BEC2C2FAC0000B1504C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3F15BF52C2FAC0000B1504C /* YapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F15BF62C2FAC0000B1504C /* YapperTests.swift */,
+			);
+			path = YapperTests;
+			sourceTree = "<group>";
+		};
+		A3F15BFF2C2FAC0000B1504C /* YapperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F15C002C2FAC0000B1504C /* YapperUITests.swift */,
+				A3F15C022C2FAC0000B1504C /* YapperUITestsLaunchTests.swift */,
+			);
+			path = YapperUITests;
+			sourceTree = "<group>";
+		};
+		A3F15C132C2FAC3D00B1504C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A3F15BE52C2FABFE00B1504C /* YapperApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A3F15C142C2FAC6E00B1504C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A3F15C2A2C307A2D00B1504C /* Components */,
+				A3F15C212C2FAD5500B1504C /* Profles */,
+				A3F15C202C2FAD4F00B1504C /* Listings */,
+				A3F15C192C2FACD800B1504C /* Explore */,
+				A3F15C1F2C2FAD1200B1504C /* Wish Lists */,
+				A3F15C1E2C2FAD0800B1504C /* Tab bar */,
+				A3F15C1D2C2FACFE00B1504C /* Root */,
+				A3F15C1B2C2FACEB00B1504C /* MapView */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A3F15C162C2FAC9C00B1504C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A3F15C182C2FACB400B1504C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A3F15C192C2FACD800B1504C /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				A3F15C222C2FADEA00B1504C /* ExploreView.swift */,
+				A3F15C262C2FC1E900B1504C /* SearchAndFilterBar.swift */,
+				A3F15C2E2C31FFB100B1504C /* DestinationSearchView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		A3F15C1B2C2FACEB00B1504C /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		A3F15C1D2C2FACFE00B1504C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A3F15C1E2C2FAD0800B1504C /* Tab bar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tab bar";
+			sourceTree = "<group>";
+		};
+		A3F15C1F2C2FAD1200B1504C /* Wish Lists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Wish Lists";
+			sourceTree = "<group>";
+		};
+		A3F15C202C2FAD4F00B1504C /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+				A3F15C242C2FB2FB00B1504C /* ListingItemView.swift */,
+				A3F15C282C306F9B00B1504C /* ListingDetailView.swift */,
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		A3F15C212C2FAD5500B1504C /* Profles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Profles;
+			sourceTree = "<group>";
+		};
+		A3F15C2A2C307A2D00B1504C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A3F15C2B2C307B4900B1504C /* ListingImageCaresellVIew.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A3F15C2D2C30E3C700B1504C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F15BE12C2FABFE00B1504C /* Yapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F15C062C2FAC0000B1504C /* Build configuration list for PBXNativeTarget "Yapper" */;
+			buildPhases = (
+				A3F15BDE2C2FABFE00B1504C /* Sources */,
+				A3F15BDF2C2FABFE00B1504C /* Frameworks */,
+				A3F15BE02C2FABFE00B1504C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yapper;
+			productName = Yapper;
+			productReference = A3F15BE22C2FABFE00B1504C /* Yapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3F15BF12C2FAC0000B1504C /* YapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F15C092C2FAC0000B1504C /* Build configuration list for PBXNativeTarget "YapperTests" */;
+			buildPhases = (
+				A3F15BEE2C2FAC0000B1504C /* Sources */,
+				A3F15BEF2C2FAC0000B1504C /* Frameworks */,
+				A3F15BF02C2FAC0000B1504C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F15BF42C2FAC0000B1504C /* PBXTargetDependency */,
+			);
+			name = YapperTests;
+			productName = YapperTests;
+			productReference = A3F15BF22C2FAC0000B1504C /* YapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3F15BFB2C2FAC0000B1504C /* YapperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F15C0C2C2FAC0000B1504C /* Build configuration list for PBXNativeTarget "YapperUITests" */;
+			buildPhases = (
+				A3F15BF82C2FAC0000B1504C /* Sources */,
+				A3F15BF92C2FAC0000B1504C /* Frameworks */,
+				A3F15BFA2C2FAC0000B1504C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F15BFE2C2FAC0000B1504C /* PBXTargetDependency */,
+			);
+			name = YapperUITests;
+			productName = YapperUITests;
+			productReference = A3F15BFC2C2FAC0000B1504C /* YapperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F15BDA2C2FABFE00B1504C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A3F15BE12C2FABFE00B1504C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A3F15BF12C2FAC0000B1504C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A3F15BE12C2FABFE00B1504C;
+					};
+					A3F15BFB2C2FAC0000B1504C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A3F15BE12C2FABFE00B1504C;
+					};
+				};
+			};
+			buildConfigurationList = A3F15BDD2C2FABFE00B1504C /* Build configuration list for PBXProject "Yapper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3F15BD92C2FABFE00B1504C;
+			productRefGroup = A3F15BE32C2FABFE00B1504C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F15BE12C2FABFE00B1504C /* Yapper */,
+				A3F15BF12C2FAC0000B1504C /* YapperTests */,
+				A3F15BFB2C2FAC0000B1504C /* YapperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F15BE02C2FABFE00B1504C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F15BED2C2FAC0000B1504C /* Preview Assets.xcassets in Resources */,
+				A3F15BEA2C2FAC0000B1504C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F15BF02C2FAC0000B1504C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F15BFA2C2FAC0000B1504C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F15BDE2C2FABFE00B1504C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F15BE82C2FABFE00B1504C /* ContentView.swift in Sources */,
+				A3F15C2F2C31FFB100B1504C /* DestinationSearchView.swift in Sources */,
+				A3F15C2C2C307B4900B1504C /* ListingImageCaresellVIew.swift in Sources */,
+				A3F15C252C2FB2FB00B1504C /* ListingItemView.swift in Sources */,
+				A3F15C232C2FADEA00B1504C /* ExploreView.swift in Sources */,
+				A3F15C272C2FC1E900B1504C /* SearchAndFilterBar.swift in Sources */,
+				A3F15C292C306F9B00B1504C /* ListingDetailView.swift in Sources */,
+				A3F15BE62C2FABFE00B1504C /* YapperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F15BEE2C2FAC0000B1504C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F15BF72C2FAC0000B1504C /* YapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F15BF82C2FAC0000B1504C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F15C012C2FAC0000B1504C /* YapperUITests.swift in Sources */,
+				A3F15C032C2FAC0000B1504C /* YapperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3F15BF42C2FAC0000B1504C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F15BE12C2FABFE00B1504C /* Yapper */;
+			targetProxy = A3F15BF32C2FAC0000B1504C /* PBXContainerItemProxy */;
+		};
+		A3F15BFE2C2FAC0000B1504C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F15BE12C2FABFE00B1504C /* Yapper */;
+			targetProxy = A3F15BFD2C2FAC0000B1504C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3F15C042C2FAC0000B1504C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3F15C052C2FAC0000B1504C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F15C072C2FAC0000B1504C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yapper/Preview Content\"";
+				DEVELOPMENT_TEAM = 337392L7FD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeForTech.demo.Yapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3F15C082C2FAC0000B1504C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yapper/Preview Content\"";
+				DEVELOPMENT_TEAM = 337392L7FD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeForTech.demo.Yapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3F15C0A2C2FAC0000B1504C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337392L7FD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeForTech.demo.YapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yapper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yapper";
+			};
+			name = Debug;
+		};
+		A3F15C0B2C2FAC0000B1504C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337392L7FD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeForTech.demo.YapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yapper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yapper";
+			};
+			name = Release;
+		};
+		A3F15C0D2C2FAC0000B1504C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337392L7FD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeForTech.demo.YapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yapper;
+			};
+			name = Debug;
+		};
+		A3F15C0E2C2FAC0000B1504C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337392L7FD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeForTech.demo.YapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yapper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F15BDD2C2FABFE00B1504C /* Build configuration list for PBXProject "Yapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F15C042C2FAC0000B1504C /* Debug */,
+				A3F15C052C2FAC0000B1504C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F15C062C2FAC0000B1504C /* Build configuration list for PBXNativeTarget "Yapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F15C072C2FAC0000B1504C /* Debug */,
+				A3F15C082C2FAC0000B1504C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F15C092C2FAC0000B1504C /* Build configuration list for PBXNativeTarget "YapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F15C0A2C2FAC0000B1504C /* Debug */,
+				A3F15C0B2C2FAC0000B1504C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F15C0C2C2FAC0000B1504C /* Build configuration list for PBXNativeTarget "YapperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F15C0D2C2FAC0000B1504C /* Debug */,
+				A3F15C0E2C2FAC0000B1504C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3F15BDA2C2FABFE00B1504C /* Project object */;
+}
